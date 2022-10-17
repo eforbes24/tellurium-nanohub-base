@@ -11,7 +11,7 @@
 3. In the unzipped files replace the jupyter notebook there by your own (do not place spaces in the notebook name). In other words: replace tellurium.ipynb with \&lt;YOUR\_NOTEBOOK\_NAME\&gt;.ipynb
 4. In the unzipped files, under the folder middleware, open the file invoke (use notepad or notepad++) and replace tellurium.ipynb with the name of your jupyter notebook
 5. Also in the middleware/invoke file replace &quot;-t tellurium&quot; with &quot;-t short\_tool\_name&quot;. short\_tool\_name will be the name nanohub uses in the url for your tool and to call it, it **must** match &quot;Tool Name&quot; in [https://nanohub.org/tools/create](https://nanohub.org/tools/create). It must be 3-15 alphanumeric characters, no spaces. Once you register your tool, you cannot change this name, so be careful to pick a good one.
-    1. If you had already done this before Friday 12/18 either pull again from the repo or change &quot;start\_jupyter -T @tool tellurium.ipynb&quot; to &quot;start\_jupyter -t -T @tool tellurium.ipynb&quot;
+    1. If you had already done this before December 18 2020 either pull again from the repo or change &quot;start\_jupyter -T @tool tellurium.ipynb&quot; to &quot;start\_jupyter -t -T @tool tellurium.ipynb&quot;
     2. If you want your notebook to open on app mode you have to add a -A before the -T in that string
     3. The &quot;not short&quot; tool name will be the Title in that box, that&#39;s the one people will mainly see
 
